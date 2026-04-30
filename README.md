@@ -1,12 +1,17 @@
 # Voice Assistant (Python)
 
-## Description
-This project is a simple voice assistant built using Python. It listens to voice commands and responds using speech.
+## Overview
+This project is a voice-based assistant built using Python that listens to user commands and responds using speech.
 
 ## Features
-- Speech Recognition (voice input)
-- Text-to-Speech output
-- Multiple command handling (hello, name, time, date, exit)
+- Voice input using SpeechRecognition
+- Text-to-speech output using gTTS
+- Supports multiple commands:
+  - Greeting
+  - Name query
+  - Time
+  - Date
+  - Exit
 
 ## Technologies Used
 - Python
@@ -14,13 +19,12 @@ This project is a simple voice assistant built using Python. It listens to voice
 - gTTS
 - playsound
 
+## How It Works
+The assistant captures audio input, converts it into text, processes the command using conditional logic, and responds using speech output.
+
 ## How to Run
-pip install SpeechRecognition gTTS playsound pyaudio
+pip install SpeechRecognition gTTS playsound pyaudio  
 python voice_assistant.py
 
-## Commands
-- "hello"
-- "what is your name"
-- "what is the time"
-- "what is today's date"
-- "exit"
+## Author
+Abhishek Rudrapati
